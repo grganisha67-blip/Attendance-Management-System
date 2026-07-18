@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>TEACHER</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Attendance</a>
+        <a href="#">Report</a>
+        <a href="#">Profile</a>
+        <a href="#">Logout</a>
+    </nav>
+
+    <div class="info">
+        <div><strong>Subject :</strong> Web Technology</div>
+        <div><strong>Semester :</strong> 4th</div>
+        <div><strong>Date :</strong> <span id="date"></span></div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Student Name</th>
+                <th>Present / Absent</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>01</td>
+                <td>Ram</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Sita</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>Hari</td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>04</td>
+                <td>Gita</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <button onclick="submitAttendance()">Submit Attendance</button>
+
+</div>
+
+<script src="teacher.js"></script>
+
+</body>
+</html>

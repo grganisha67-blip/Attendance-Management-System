@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>STUDENT</h1>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">My Attendance</a>
+    <a href="#">Profile</a>
+    <a href="#">Logout</a>
+</nav>
+
+<div class="profile">
+
+<div>
+<p><strong>Name :</strong> Ram Sharma</p>
+<p><strong>Roll No :</strong> 01</p>
+<p><strong>Semester :</strong> 4th</p>
+</div>
+
+<div>
+<p><strong>Faculty :</strong> BCA</p>
+</div>
+
+</div>
+
+<table>
+
+<tr>
+<th>Month</th>
+<th>Attendance</th>
+</tr>
+
+<tr>
+<td>January</td>
+<td>95%</td>
+</tr>
+
+<tr>
+<td>February</td>
+<td>90%</td>
+</tr>
+
+<tr>
+<td>March</td>
+<td>92%</td>
+</tr>
+
+<tr>
+<td><strong>Overall</strong></td>
+<td><strong id="overall">92%</strong></td>
+</tr>
+
+</table>
+
+<button onclick="downloadReport()">Download Report</button>
+
+</div>
+
+<script src="student.js"></script>
+
+</body>
+</html>

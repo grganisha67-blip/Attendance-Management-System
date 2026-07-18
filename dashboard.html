@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+
+
+  <nav>
+
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+<!-- <nav>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Teachers</a></li>
+        <li><a href="#">Students</a></li>
+        <li><a href="#">Attendance</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="index.html" id="logout">Logout</a></li>
+    </ul>
+</nav> -->
+
+<header>
+    <h1>ADMIN</h1>
+
+</header>
+
+
+<section class="statistics">
+
+    <div class="card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Total Students</h3>
+        <p id="students">120</p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-user-tie"></i>
+        <h3 >Total Teachers</h3>
+        <p id="teachers">10</p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-clipboard-check"></i>
+        <h3>Attendance Today</h3>
+        <p id="attendance">98%</p>
+    </div>
+
+</section>
+
+<section class="actions">
+
+    <div class="action-card" id="addStudent">
+        <i class="fa-solid fa-user-plus"></i>
+        <h3>Add Student</h3>
+    </div>
+
+    <div class="action-card" id="addTeacher">
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <h3>Add Teacher</h3>
+    </div>
+
+    <div class="action-card" id="viewAttendance">
+        <i class="fa-solid fa-clipboard-list"></i>
+        <h3>View Attendance</h3>
+    </div>
+
+    <div class="action-card" id="report">
+        <i class="fa-solid fa-chart-column"></i>
+        <h3>Generate Report</h3>
+    </div>
+
+</section>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
